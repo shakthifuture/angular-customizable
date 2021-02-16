@@ -1,0 +1,16 @@
+{
+    "color" : {
+        "primaryColor":"blue",
+        "backgroundColor":"orange"
+    },
+    "font" : {
+        "primaryFont": "mcdonalds_regular"
+    },
+    "menu" : {
+        "items" : [
+            {"label":"First", "path":"link1"},
+            {"label":"Second2", "path":"link2"},
+            {"label":"Third", "path":"link3"}
+        ]
+    }
+}

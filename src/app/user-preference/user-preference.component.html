@@ -1,0 +1,8 @@
+<b> List of configuration: </b><br><br>
+<div *ngFor="let data of dataMaps | keyvalue">
+    {{data.key}} <input type="text" value="{{data.value}}" (blur)="updateValue(data.key, $event.target.value)">
+</div>
+<br>
+<a [routerLink]="['/home']">
+    Go to home page
+</a>

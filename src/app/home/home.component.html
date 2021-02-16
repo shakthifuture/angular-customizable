@@ -1,0 +1,28 @@
+<div [style.background]="colors.backgroundColor" class="container" [style.font-family]="fonts.primaryFont">
+    <button [style.color]="colors.primaryColor">My button</button>
+    <br><br>
+    <input type="checkbox" name="vehicle1" value="Bike">
+    <label for="vehicle1" [style.color]="colors.primaryColor">My Checkbox</label>
+    <br><br>
+    <input type="radio" name="vehicle1" value="Bike">
+    <label for="vehicle1" [style.color]="colors.primaryColor">My Radiobutton</label>
+    <br><br>
+    <select name="cars" id="cars" [style.color]="colors.primaryColor">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="mercedes">Mercedes</option>
+        <option value="audi">Audi</option>
+    </select>
+    <br><br>
+    <a [routerLink]="['/settings']" [style.color]="colors.primaryColor">
+        Go to settings page
+    </a>
+    <br><br>
+    <a [routerLink]="['/table']" [style.color]="colors.primaryColor">
+        Go to Table page
+    </a>
+    <br><br>
+    <a [routerLink]="['/navigation']" [style.color]="colors.primaryColor">
+        Go to menu page
+    </a>
+</div>

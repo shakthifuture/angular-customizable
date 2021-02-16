@@ -1,0 +1,22 @@
+table {
+    width: 90%;
+    border-collapse: collapse;
+  }
+  
+  th {
+    border-bottom: 1px solid #ffa600;
+  }
+  
+  td.mat-cell { 
+    padding: 20px 0;
+    border: none;
+  }
+  
+  tr.mat-row {
+    border: 1px solid #ffa600;
+  }
+
+.header {
+    margin-left: 15px;
+}
+
