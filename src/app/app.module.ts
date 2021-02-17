@@ -12,7 +12,6 @@ import {MatTableModule} from '@angular/material/table';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatListModule} from '@angular/material/list';
 import {MatTabsModule} from '@angular/material/tabs';
-import { LeftMenuComponent } from './left-menu/left-menu.component';
 import { MatSortModule } from '@angular/material/sort';
 import { MatSelectModule } from '@angular/material/select';
 import { MatPaginatorModule } from '@angular/material/paginator';
@@ -24,8 +23,7 @@ import { TabModule } from './tab/tab.module';
     AppComponent,
     UserPreferenceComponent,
     HomeComponent,
-    TableComponent,
-    LeftMenuComponent
+    TableComponent
   ],
   imports: [
     BrowserModule,

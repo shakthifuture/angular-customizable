@@ -12,9 +12,9 @@ const routes: Routes = [
     path: '',
     component: NavigationComponent,
     children: [
-      { path: 'link1', component: TableComponent},
-      { path: 'link2', component: HomeComponent },
-      { path: 'link3', component: UserPreferenceComponent },
+      { path: 'navhome', component: HomeComponent },
+      { path: 'navtable', component: TableComponent},
+      { path: 'navsettings', component: UserPreferenceComponent },
     ]
   }
 ];

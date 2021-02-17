@@ -1,5 +1,9 @@
+<div class="menu">
 <mat-tab-group (selectedTabChange)="tabChange($event)">
 	<mat-tab *ngFor="let tab of menu;" [label]="tab.label">
 	</mat-tab>
 </mat-tab-group>
+</div>
+<div class="content">
 <router-outlet></router-outlet>
+</div>

@@ -17,14 +17,14 @@ export class UserPreferenceComponent implements OnInit {
     let dataMap = new Map();
 
     Object.keys(colorJson).forEach(function(key) {
-      console.table('Key : ' + key + ', Value : ' + colorJson[key])
+      //console.table('Key : ' + key + ', Value : ' + colorJson[key])
       dataMap.set(key, localStorage.getItem(key));
     });
     Object.keys(fontJson).forEach(function(key) {
-      console.table('Key : ' + key + ', Value : ' + fontJson[key])
+      //console.table('Key : ' + key + ', Value : ' + fontJson[key])
       dataMap.set(key, localStorage.getItem(key));
     });
-    console.log(dataMap);
+    //console.log(dataMap);
     this.dataMaps = dataMap;
   }
 

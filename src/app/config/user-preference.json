@@ -8,9 +8,9 @@
     },
     "menu" : {
         "items" : [
-            {"label":"First", "path":"link1"},
-            {"label":"Second2", "path":"link2"},
-            {"label":"Third", "path":"link3"}
+            {"label":"Table", "path":"navtable"},
+            {"label":"Home", "path":"navhome"},
+            {"label":"Settings", "path":"navsettings"}
         ]
     }
 }
